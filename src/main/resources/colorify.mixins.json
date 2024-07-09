@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "package": "com.fin.colorify.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "CloudRendererMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "client": [
+    "BackgroundRendererMixin",
+    "BiomeEffectsMixin",
+    "ClientWorldMixin",
+    "RenderSystemMixin"
+  ]
+}

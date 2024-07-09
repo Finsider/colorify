@@ -1,0 +1,28 @@
+{
+	"schemaVersion": 1,
+	"id": "colorify",
+	"version": "1.0.0",
+	"name": "Colorify",
+	"description": "Sky, Fog, Clouds Color.",
+	"authors": [
+		"Finside"
+	],
+	"license": "LGPL-3.0",
+	"environment": "*",
+	"entrypoints": {
+		"client": [
+			"com.fin.colorify.Main"
+		],
+		"modmenu" : [
+			"com.fin.colorify.config.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+      "colorify.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.15.7",
+		"minecraft": "~1.20",
+		"java": ">=17"
+	}
+}
